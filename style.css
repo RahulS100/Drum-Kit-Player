@@ -106,7 +106,7 @@ body {
 
 /*//////////////////////////////mobile and tabs friendly///////////////////////*/
 /*///////////////////////300px to 400px display/////////////////*/
-@media screen and (min-width: 300px) and (max-width: 400px) {
+@media screen and (min-width: 300px) and (max-width: 450px) {
     .heading-container {
         align-items: center;
         height: 18vh;
@@ -120,7 +120,7 @@ body {
         height: 80px;
         width: 80px;
         font-size: 1.5rem;
-        margin: 0 12px 0 12px;
+        margin: 0 10px 0 10px;
     }
 
     .main-container {
@@ -135,7 +135,7 @@ body {
 } 
 
 /*///////////////////////400px to 600px display/////////////////*/
-@media screen and (min-width: 400px) and (max-width: 600px) {
+@media screen and (min-width: 450px) and (max-width: 600px) {
     .heading-container {
         align-items: center;
         height: 20vh;
