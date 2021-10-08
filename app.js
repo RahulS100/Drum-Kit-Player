@@ -35,7 +35,7 @@ function playSound(match) {
         //animation function call
         animation_btn(match);
 
-        let drum_audio = new Audio('/sounds/crash.mp3');
+        let drum_audio = new Audio('./sounds/crash.mp3');
         drum_audio.play();
     } 
     
@@ -43,7 +43,7 @@ function playSound(match) {
         //animation function call
         animation_btn(match);
 
-        let drum_audio = new Audio('/sounds/kick-bass.mp3');
+        let drum_audio = new Audio('./sounds/kick-bass.mp3');
         drum_audio.play();
     }
     
@@ -51,7 +51,7 @@ function playSound(match) {
         //animation function call
         animation_btn(match);
 
-        let drum_audio = new Audio('/sounds/snare.mp3');
+        let drum_audio = new Audio('./sounds/snare.mp3');
         drum_audio.play();
     }
     
@@ -59,7 +59,7 @@ function playSound(match) {
         //animation function call
         animation_btn(match);
 
-        let drum_audio = new Audio('/sounds/tom-1.mp3');
+        let drum_audio = new Audio('./sounds/tom-1.mp3');
         drum_audio.play();
     }
     
@@ -67,7 +67,7 @@ function playSound(match) {
         //animation function call
         animation_btn(match);
 
-        let drum_audio = new Audio('/sounds/tom-2.mp3');
+        let drum_audio = new Audio('./sounds/tom-2.mp3');
         drum_audio.play();
     }
     
@@ -75,7 +75,7 @@ function playSound(match) {
         //animation function call
         animation_btn(match);
 
-        let drum_audio = new Audio('/sounds/tom-3.mp3');
+        let drum_audio = new Audio('./sounds/tom-3.mp3');
         drum_audio.play();
     }
     
@@ -83,11 +83,11 @@ function playSound(match) {
         //animation function call
         animation_btn(match);
 
-        let drum_audio = new Audio('/sounds/tom-4.mp3');
+        let drum_audio = new Audio('./sounds/tom-4.mp3');
         drum_audio.play();
     }
 
     else {
-        console.log("Not any operation with this key" + match);
+        console.log("play with only a, s, d, f, g, h, j keys");
     }
 } 
