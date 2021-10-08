@@ -35,7 +35,7 @@ function playSound(match) {
         //animation function call
         animation_btn(match);
 
-        let drum_audio = new Audio('/sounds/crash.mp3');
+        let drum_audio = new Audio('./sounds/crash.mp3');
         drum_audio.play();
     } 
     
